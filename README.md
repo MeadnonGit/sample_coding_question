@@ -10,9 +10,10 @@ My understanding of the above is that we are looking for the difference between 
 +  take an element as the starting point; compute the difference between the starting point and others elements; the maximal positive difference and the minimal negative difference will give the maximal difference of the sequence.
 
 **Idea :**
+
 I applied the way #2 in the file "maxi_difference.py". The advantage is that there is no need to order the sequence and the starting point can be any element inside the sequence.
 
 The starting point is the first element of the sequence. The positive difference is the difference between the first element and any other element less than itself. The negative difference is the difference between the first element and any other element greater than itself.
 
-**Tools**
+**Tools :**
 Python 3.7.3 [GCC 7.3.0] :: Anaconda(spyder)
